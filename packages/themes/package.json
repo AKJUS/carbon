@@ -1,7 +1,7 @@
 {
   "name": "@carbon/themes",
   "description": "Themes for applying color in the Carbon Design System",
-  "version": "11.52.0",
+  "version": "11.53.0",
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -39,8 +39,8 @@
     "color": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/node": "^7.24.7",
-    "@babel/preset-env": "^7.24.7",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
     "@carbon/cli": "^11.27.0",
     "@carbon/cli-reporter": "^10.7.0",
     "@carbon/scss-generator": "^10.19.0",
