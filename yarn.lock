@@ -4165,6 +4165,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/env@npm:15.5.10":
+  version: 15.5.10
+  resolution: "@next/env@npm:15.5.10"
+  checksum: 10/801a17e9ba94b8017dde05a21cec08aab19d6d7d3151de48cd19f4bf60711559cfc4d56688399d51750d74709b970f63119ab1d628bc6199db78d2755e027ce1
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:15.5.9":
   version: 15.5.9
   resolution: "@next/env@npm:15.5.9"
@@ -12378,7 +12385,7 @@ __metadata:
   dependencies:
     "@carbon/react": "npm:^1.102.0-rc.0"
     eslint: "npm:8.40.0"
-    next: "npm:15.5.9"
+    next: "npm:15.5.10"
     react: "npm:^19.2.3"
     react-dom: "npm:^19.2.3"
     sass: "npm:^1.93.2"
@@ -12392,7 +12399,7 @@ __metadata:
     "@carbon/react": "npm:^1.102.0-rc.0"
     eslint: "npm:8.40.0"
     eslint-config-next: "npm:15.3.3"
-    next: "npm:15.5.9"
+    next: "npm:15.5.10"
     react: "npm:^19.2.3"
     react-dom: "npm:^19.2.3"
     sass: "npm:^1.93.2"
@@ -16616,9 +16623,9 @@ __metadata:
   linkType: hard
 
 "lodash-es@npm:^4.17.21":
-  version: 4.17.21
-  resolution: "lodash-es@npm:4.17.21"
-  checksum: 10/03f39878ea1e42b3199bd3f478150ab723f93cc8730ad86fec1f2804f4a07c6e30deaac73cad53a88e9c3db33348bb8ceeb274552390e7a75d7849021c02df43
+  version: 4.17.23
+  resolution: "lodash-es@npm:4.17.23"
+  checksum: 10/1feae200df22eb0bd93ca86d485e77784b8a9fb1d13e91b66e9baa7a7e5e04be088c12a7e20c2250fc0bd3db1bc0ef0affc7d9e3810b6af2455a3c6bf6dde59e
   languageName: node
   linkType: hard
 
@@ -18059,7 +18066,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:15.5.9, next@npm:^15.0.0":
+"next@npm:15.5.10":
+  version: 15.5.10
+  resolution: "next@npm:15.5.10"
+  dependencies:
+    "@next/env": "npm:15.5.10"
+    "@next/swc-darwin-arm64": "npm:15.5.7"
+    "@next/swc-darwin-x64": "npm:15.5.7"
+    "@next/swc-linux-arm64-gnu": "npm:15.5.7"
+    "@next/swc-linux-arm64-musl": "npm:15.5.7"
+    "@next/swc-linux-x64-gnu": "npm:15.5.7"
+    "@next/swc-linux-x64-musl": "npm:15.5.7"
+    "@next/swc-win32-arm64-msvc": "npm:15.5.7"
+    "@next/swc-win32-x64-msvc": "npm:15.5.7"
+    "@swc/helpers": "npm:0.5.15"
+    caniuse-lite: "npm:^1.0.30001579"
+    postcss: "npm:8.4.31"
+    sharp: "npm:^0.34.3"
+    styled-jsx: "npm:5.1.6"
+  peerDependencies:
+    "@opentelemetry/api": ^1.1.0
+    "@playwright/test": ^1.51.1
+    babel-plugin-react-compiler: "*"
+    react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
+    react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
+    sass: ^1.3.0
+  dependenciesMeta:
+    "@next/swc-darwin-arm64":
+      optional: true
+    "@next/swc-darwin-x64":
+      optional: true
+    "@next/swc-linux-arm64-gnu":
+      optional: true
+    "@next/swc-linux-arm64-musl":
+      optional: true
+    "@next/swc-linux-x64-gnu":
+      optional: true
+    "@next/swc-linux-x64-musl":
+      optional: true
+    "@next/swc-win32-arm64-msvc":
+      optional: true
+    "@next/swc-win32-x64-msvc":
+      optional: true
+    sharp:
+      optional: true
+  peerDependenciesMeta:
+    "@opentelemetry/api":
+      optional: true
+    "@playwright/test":
+      optional: true
+    babel-plugin-react-compiler:
+      optional: true
+    sass:
+      optional: true
+  bin:
+    next: dist/bin/next
+  checksum: 10/8ddac0c7fdb46450071622d7a3f4f47125394a8f0685eaa662242740549c20f24c10fc951a4bc206596e1b6c469450ea437393a6a1187ff58e67b213590fabb1
+  languageName: node
+  linkType: hard
+
+"next@npm:^15.0.0":
   version: 15.5.9
   resolution: "next@npm:15.5.9"
   dependencies:
@@ -20337,9 +20403,9 @@ __metadata:
   linkType: hard
 
 "qs@npm:~6.5.2":
-  version: 6.5.3
-  resolution: "qs@npm:6.5.3"
-  checksum: 10/485c990fba7ad17671e16c92715fb064c1600337738f5d140024eb33a49fbc1ed31890d3db850117c760caeb9c9cc9f4ba22a15c20dd119968e41e3d3fe60b28
+  version: 6.5.5
+  resolution: "qs@npm:6.5.5"
+  checksum: 10/c9de23cf77edcf8fc1a1b9a997c8bb3c31a1c3657d2a11c994d39691ccfb5c48fa0b50ac01865c8a862801bdf38d05fd990f62c03141e2087dba8165ef5fbf7d
   languageName: node
   linkType: hard
 
